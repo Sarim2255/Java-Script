@@ -1,0 +1,13 @@
+For Interview 
+_____________________________________
+|Type of val      |    Result       |
+|Undefined        |    "undefined"  |
+|Null             |    "object"     |
+|Boolean          |    "boolean"    |
+|Number           |    "number"     |
+|String           |    "string"     |
+|Object           |    "object"     |
+-------------------------------------
+
+https://262.ecma-international.org/5.1/#sec-11.4.3
+
