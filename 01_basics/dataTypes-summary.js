@@ -13,15 +13,15 @@ On the basis of storing and accessing the data(value) from the memory the dataty
 */
 
 // Primitive Datatypes Examples
-const score = 100
-const scoreValue = 100.3
-console.log(typeof scoreValue)
+// const score = 100
+// const scoreValue = 100.3
+// console.log(typeof scoreValue)
 
-const isLoggedIn = false
-const outsideTemp = null
-console.log(typeof outsideTemp)
+// const isLoggedIn = false
+// const outsideTemp = null
+// console.log(typeof outsideTemp)
 
-let userEmail;
+// let userEmail;
 // Syntax to use symbol 
 const id1 = Symbol('123')
 const id2 = Symbol('123')
@@ -50,4 +50,27 @@ const myfunction = function(){
 }
 console.log(typeof heros)       //Outpt->function object
 
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "samdotcom"
+let anothername = "CodeMarshal"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sam@google.com"
+console.log(userOne);
+console.log(userTwo);
 
